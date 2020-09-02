@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProntoAtendimento.Domain\ProntoAtendimento.Domain.csproj" />
+    <ProjectReference Include="..\ProntoAtendimento.Repository\ProntoAtendimento.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
